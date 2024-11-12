@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELA INICIAL</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background-color: white;
+            font-family: Arial;
+            
+        }
+
+        .caixa {
+            background-color: #458564;
+           
+            padding: 20px;
+
+        }
+
+
+        .img-perfil {
+            height: 50px;
+            width: 50px;
+            border-radius: 100px;
+            margin-left: 550px;
+            display: flex;
+            cursor: pointer;
+        }
+
+        .ima-logo {
+            width: 300px;
+            height: auto;
+            margin-left: 620px;
+            margin-top: 20px;
+
+        }
+
+        .linha {
+            margin-left: 560px;
+            margin-top: 40px
+        }
+
+        .ou {
+            align-items: center;
+            justify-content: center;
+            margin-left: 740px;
+            font-size: 32px;
+        }
+
+        .caixa-su {
+            display: flex;
+            margin-left: 650px;
+        
+            border-radius: 10px;
+
+        }
+
+        .imagem-caixa-de-pesquisa {
+            border: none;
+            padding: 10px;
+            background-color: white;
+            background-image: url("lupa.png");
+            background-repeat: no-repeat;
+            background-position: 160px center;
+            background-size: 50px;
+            border-radius: 5px;
+            padding-left: 40px;
+        }
+
+        #letraconta {
+            margin-left: 660px;
+            margin-top: 20px;
+            font-size: 30px;
+        }
+
+        .criar-conta-por-empresa {
+            width: 230px;
+            height: 28px;
+            border-radius: 10px solid black;
+            margin-top: 10px;
+            margin-left: 656px;
+            cursor: pointer;
+
+
+        }
+
+        .imagem-de-criar-conta-por-empresa-Google {
+            padding: 10px;
+            background-color: white;
+            background-image: url("google.png");
+            background-repeat: no-repeat;
+            background-position: 10px center;
+            background-size: 20px;
+            padding-left: 28px;
+        }
+
+        .imagem-de-criar-conta-por-empresa-apple {
+            padding: 10px;
+            background-color: white;
+            background-image: url("apple.png");
+            background-repeat: no-repeat;
+            background-position: 5px center;
+            background-size: 40px;
+            padding-left: 28px;
+        }
+
+        .imagem-de-criar-conta-por-empresa-microsoft {
+            padding: 10px;
+            background-color: white;
+            background-image: url("microsoft.png");
+            background-repeat: no-repeat;
+            background-position: 8px center;
+            background-size: 40px;
+            padding-left: 28px;
+        }
+
+        #letra-google {
+            padding-bottom: 28px;
+            font-size: 16px;
+            border-radius: 20px;
+        }
+
+        #letra-apple {
+            padding-bottom: 28px;
+            font-size: 16px;
+            border-radius: 20px;
+        }
+        #letra-micr {
+            padding-bottom: 28px;
+            font-size: 16px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="caixa">
+            <div class="caixa-su">
+                <input type="text" class="imagem-caixa-de-pesquisa" placeholder="Procurar Eventos">
+                <img src="Muralha Amarela.jpg" class="img-perfil">
+            </div>
+    </div>
+
+
+    </nav>
+    <img src="Logo (1).jpg" class="ima-logo">
+    <h1 id="letraconta">Crie Sua Conta</h1>
+    <hr width="400px" class="linha">
+    <h1 class="ou"> OU</h1>
+    <div><a href="Tela PPI.html"><button class="criar-conta-por-empresa imagem-de-criar-conta-por-empresa-Google"
+                placeholder="Entrar com a conta Google" id="letra-google">Entrar com Google</button></div>
+    <div><a href="Tela PPI.html"><button class="criar-conta-por-empresa imagem-de-criar-conta-por-empresa-apple"
+                placeholder="Entrar com a Apple" id="letra-apple">Entrar com Apple</button></div>
+    <div>
+        <div><a href="Tela PPI.html"><button class="criar-conta-por-empresa imagem-de-criar-conta-por-empresa-microsoft"
+                    placeholder="Entrar com a Apple" id="letra-micr">Entrar com Microsoft</button></div>
+        <div>
+</body>
+
+</html>

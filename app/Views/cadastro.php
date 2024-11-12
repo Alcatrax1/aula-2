@@ -9,14 +9,13 @@
 
 <body>
     <div class="container" id="container">
+
+
+    
         <div class="form-container sign-up-container">
             <form action="cadastro" method="post">
                 <h1>Criar Conta</h1>
-                <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+               
 
                 <a>ou use seu e-mail para cadastro</a>
                 <input type="text" placeholder="Nome" id="username" name="username" />
@@ -26,20 +25,30 @@
             </form>
 
         </div>
+
+
+
+
+
+
         <div class="form-container sign-in-container">
-            <form action="#">
-                <h1>Entar</h1>
-                <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <span>Entre Com a Sua Conta</span>
-                <input type="email" placeholder="Email" id="email" name="email" />
-                <input type="password" placeholder="Senha" id="password" name="password" />
-                <a href="#">Esqueceu sua senha?</a>
-                <button>Sign In</button>
-            </form>
+
+
+
+
+
+
+
+
+        <form>
+    <h1>Entrar</h1>
+    <span>Entre com a sua conta</span>
+    <input type="email" placeholder="Email" id="email" name="email" />
+    <input type="password" placeholder="Senha" id="password" name="password" />
+    <a href="#">Esqueceu sua senha?</a>
+    <button type="button" onclick="window.location.href='/PPI/public/tela2';">Entrar</button>
+</form>
+
         </div>
 
         <div class="overlay-container">
@@ -50,7 +59,7 @@
                     <button class="ghost" id="signIn">Entar</button>
                 </div>
                 <div class="overlay-panel overlay-right">
-                    <h1>Ola, Amigo</h1>
+                    <h1>Olá, Amigo</h1>
                     <p>Insira seus dados pessoais e comece sua jornada conosco.</p>
                     <button class="ghost" id="signUp">Criar</button>
                 </div>
